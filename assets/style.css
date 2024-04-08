@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 50%;
+    height: 450px;
+    background-color: #ffdd99;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.heading {
+    height: 15%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form {
+    margin: 0 auto ;
+}
+
+.table {
+    border-collapse: collapse;
+    padding: 15px 0 5px 0;
+    width: 92%;
+}
+
+
+
+.table, .table td {
+    border: solid 1px black;
+    color: blue;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+td {
+    padding: 3px;
+}
+
+input {
+    border-radius: 2px;
+    width: 40%;
+    padding: 2px;
+}
+
+.address {
+    width: 90%;
+}
+
+.field {
+    width: 60%;
+    height: 60px;
+    border: solid 1px blue;
+    padding-left: 10px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+legend {
+    padding-bottom: 5px;
+}
+
+.register {
+    border-radius: 2px;
+    padding: 4px;
+    min-width: 70px;
+    border: solid 1px black;
+}
+
+.register:hover {
+    cursor: pointer;
+    background-color:azure;
+}
+
+.price {
+    border: solid 1px black;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.price-table {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.infomation {
+    border: solid 1px black;
+    width: 35%;
+    height: 350px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.info-table {
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.info-table td {
+    min-width: 120px;
+    max-width: 300px;
+}
+
+
+
